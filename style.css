@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url( "./img.png");
+}
+.cahee{
+    position: relative;
+    left: 80px;
+    font-family: Pacifico;
+    width: 300px;
+    height: 150px;
+}
+.menu{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    height: 100px;
+    position: relative;
+    left: 700px;
+    bottom: 150px;
+    font-family: Raleway;
+}
+.home{
+position: relative;
+bottom: 20px;
+}
+.center_text{
+    color: #262626;
+    font-family: "Raleway";
+    font-size: 60px;
+    position: relative;
+    left: 80px;
+    
+}
+.medium_text{
+    width: 260px;
+    height: 70px;
+    text-align: left;
+    font-family: sans-serif;
+    color: #262626;
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+a.knopka {
+    color: #fff;
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: .7em 1.5em; 
+    outline: none; 
+    position:relative;
+    left:80px;
+    top: 15px;
+}
+a.knopka:hover { 
+    background: rgb(232,95,76); 
+} 
+a.knopka:active { 
+    background: rgb(152,15,0); 
+} 
+.scroll{
+    position: relative;
+    top: 200px;
+    left: 520px;
+}
+.back_color{
+    background-color: #00c4c4;
+    height: 650px;
+    position: relative;
+    top: 230px;
+}
+.text_strawberry{
+    position: relative;
+    left: 870px;
+    bottom: 550px;
+    font-size: 70px;
+    color: white;
+    font-family: Raleway;
+}
+.text-decoration{
+    text-align:left;
+    width: 450px;
+    color: #ffffff;
+    font-family: Raleway;
+    position: relative;
+    bottom: 570px;
+    left: 870px;
+}
